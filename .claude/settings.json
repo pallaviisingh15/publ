@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(pip:*)",
+      "Bash(pytest:*)",
+      "Bash(alembic:*)",
+      "Bash(ruff:*)",
+      "Bash(mypy:*)",
+      "Bash(make:*)",
+      "Read(.sessions/**)",
+      "Write(.sessions/**)"
+    ],
+    "deny": []
+  },
+  "env": {
+    "PYTHONPATH": "src"
+  }
+}

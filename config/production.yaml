@@ -1,0 +1,6 @@
+app_env: production
+app_host: "0.0.0.0"
+app_port: 8000
+database_pool_size: 20
+database_max_overflow: 40
+session_checkpoint_interval_seconds: 300
